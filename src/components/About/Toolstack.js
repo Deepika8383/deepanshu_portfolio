@@ -1,30 +1,26 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
-  SiVercel,
-  SiMacos,
+  // SiMicrosoftpowerbi,
+  SiMicrosoftexcel,
+  SiMysql,
+  SiTableau,
 } from "react-icons/si";
-
+import { BsFillBarChartFill } from "react-icons/bs"; // For Power BI
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+        <BsFillBarChartFill />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiMicrosoftexcel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiTableau />
       </Col>
     </Row>
   );
